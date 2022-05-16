@@ -1,0 +1,14 @@
+#Project Params
+proj_path: None                                               #default: XXXX  (str) Path to working directory, if None, it is autofilled
+
+#File Input Params
+input_image: 'FSF.jpg'
+
+#File Output Params (without extension type!)
+saved_filename: 'test_FSF'                                        #defatul: test  (str) Filetype is determined by save_as_gif param
+
+#GIF Params
+save_as_gif: True                                             #default: False (bool) .GIF if true, .JPEG otherwise
+interval_duration: 500                                        #default: 500   (int) duration between gif images, only used for GIFs (in ms)
+num_intervals: 30                                             #default: 4     (int) number of words added between each GIF image, only used for GIFs
+randomize_contours: False
